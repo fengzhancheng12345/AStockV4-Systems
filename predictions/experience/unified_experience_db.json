@@ -1,0 +1,66 @@
+{
+  "factors": {
+    "pct_1d": {
+      "ic": -0.0483,
+      "ic_abs": 0.0483,
+      "spread": 0,
+      "samples": 218000,
+      "source": "C_system_500",
+      "updated": "2026-04-29"
+    },
+    "pct_5d": {
+      "ic": -0.0437,
+      "ic_abs": 0.0437,
+      "spread": 0,
+      "samples": 218000,
+      "source": "C_system_500",
+      "updated": "2026-04-29"
+    },
+    "pct_10d": {
+      "ic": -0.0307,
+      "ic_abs": 0.0307,
+      "spread": 0,
+      "samples": 218000,
+      "source": "C_system_500",
+      "updated": "2026-04-29"
+    },
+    "vr_20": {
+      "ic": -0.0224,
+      "ic_abs": 0.0224,
+      "spread": 0,
+      "samples": 218000,
+      "source": "C_system_500",
+      "updated": "2026-04-29"
+    },
+    "rsi_14": {
+      "ic": -0.0203,
+      "ic_abs": 0.0203,
+      "spread": 0,
+      "samples": 218000,
+      "source": "C_system_500",
+      "updated": "2026-04-29"
+    },
+    "rsi_6": {
+      "ic": -0.0188,
+      "ic_abs": 0.0188,
+      "spread": 0,
+      "samples": 218000,
+      "source": "C_system_500",
+      "updated": "2026-04-29"
+    },
+    "pct_20d": {
+      "ic": -0.0115,
+      "ic_abs": 0.0115,
+      "spread": 0,
+      "samples": 218000,
+      "source": "C_system_500",
+      "updated": "2026-04-29"
+    }
+  },
+  "rules": {},
+  "metadata": {
+    "version": "C2.0",
+    "last_updated": "2026-04-29 17:25",
+    "total_samples": 218000
+  }
+}
