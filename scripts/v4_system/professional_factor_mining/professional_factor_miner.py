@@ -1,7 +1,29 @@
-"""Professional Factor Mining System - B System"""
+"""
+B系统 - Professional Factor Mining
+=====================================
+使用与C系统统一的经验库
+
+输出:
+- 因子测试结果 → 统一经验库
+- 经验库路径: /mnt/d/AStockV4/predictions/experience/unified_experience_db.json
+"""
+
 import json, time, urllib.request
 from datetime import datetime
-import math, os
+import math, os, sys
+
+# 添加父目录以便导入experience_manager
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+try:
+    from experience_manager import load_experience, save_experience, add_factor_result
+    USE_EXPERIENCE_DB = True
+except ImportError:
+    USE_EXPERIENCE_DB = False
+
+OUTPUT_DIR = '/mnt/d/AStockV4/predictions/factor_library'
+EXPERIENCE_FILE = '/mnt/d/AStockV4/predictions/experience/unified_experience_db.json'
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(os.path.dirname(EXPERIENCE_FILE), exist_ok=True)
 
 def get_stock_list():
     stocks = []
@@ -169,11 +191,18 @@ def run_test(max_stocks=100):
     print("=" * 70)
     print("B System - Professional Factor Mining")
     print("=" * 70)
+    
+    # 加载当前经验库
+    if USE_EXPERIENCE_DB:
+        exp_db = load_experience()
+        print(f"\n当前经验库: {len(exp_db.get('factors', {}))} 因子, {len(exp_db.get('rules', {}))} 规则")
+    
     print("\n[Step 1] Getting stock list...")
     stocks = get_stock_list()
     print(f"Got {len(stocks)} stocks")
     if not stocks:
         return None
+    
     print(f"\n[Step 2] Collecting data for {min(max_stocks, len(stocks))} stocks...")
     all_samples = []
     collected = 0
@@ -194,6 +223,7 @@ def run_test(max_stocks=100):
     print(f"\nCollected: {collected} stocks, {len(all_samples)} samples")
     if not all_samples:
         return None
+    
     print(f"\n[Step 3] Testing factors...")
     exclude = {'day', 'stock_code', 'stock_name', 't1_pct', 't1_up'}
     factor_names = [k for k in all_samples[0].keys() if k not in exclude]
@@ -204,14 +234,31 @@ def run_test(max_stocks=100):
             fvals = [s.get(fname) for s in all_samples]
             ic = calc_ic(fvals, returns)
             spread = calc_spread(fvals, returns)
-            results.append({'name': fname, 'ic': ic, 'ic_abs': abs(ic), 'spread': spread})
+            results.append({'name': fname, 'ic': ic, 'ic_abs': abs(ic), 'spread': spread, 'samples': len(all_samples)})
         except:
             continue
     results.sort(key=lambda x: -x['ic_abs'])
     print(f"Tested {len(results)} factors")
-    os.makedirs('/mnt/d/AStockV4/predictions/factor_library', exist_ok=True)
-    with open('/mnt/d/AStockV4/predictions/factor_library/factor_test_results.json', 'w') as f:
-        json.dump(results[:100], f, ensure_ascii=False, indent=2)
+    
+    # 保存本地结果
+    with open(f"{OUTPUT_DIR}/factor_test_results.json", 'w') as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+    
+    # 添加到统一经验库
+    if USE_EXPERIENCE_DB:
+        print(f"\n[Step 4] Adding to unified experience database...")
+        for r in results:
+            exp_db.setdefault('factors', {})[r['name']] = {
+                'ic': round(r['ic'], 6),
+                'ic_abs': round(r['ic_abs'], 6),
+                'spread': round(r['spread'], 4),
+                'samples': r['samples'],
+                'updated': datetime.now().strftime('%Y-%m-%d'),
+                'source': 'B_system'
+            }
+        save_experience(exp_db)
+        print(f"  Experience DB now has: {len(exp_db.get('factors', {}))} factors")
+    
     print("\n" + "=" * 70)
     print("TOP 20 FACTORS")
     print("=" * 70)
