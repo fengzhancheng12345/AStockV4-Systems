@@ -7,68 +7,76 @@
       "accuracy": 50
     },
     "vr_10": {
-      "ic": -0.037163,
-      "ic_abs": 0.037163,
+      "ic": -0.02225605601910676,
+      "ic_abs": 0.02225605601910676,
       "spread": -0.1096,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "pct_1d": {
-      "ic": -0.031213,
-      "ic_abs": 0.031213,
+      "ic": -0.019231822900979356,
+      "ic_abs": 0.019231822900979356,
       "spread": -0.1091,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "price_ma10": {
-      "ic": -0.042858,
-      "ic_abs": 0.042858,
+      "ic": -0.02954892958473277,
+      "ic_abs": 0.02954892958473277,
       "spread": -0.1636,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "price_ma5": {
-      "ic": -0.040194,
-      "ic_abs": 0.040194,
+      "ic": -0.027018656998337724,
+      "ic_abs": 0.027018656998337724,
       "spread": -0.1028,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "pct_5d": {
-      "ic": -0.043077,
-      "ic_abs": 0.043077,
+      "ic": -0.029566863011476326,
+      "ic_abs": 0.029566863011476326,
       "spread": -0.1826,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "pct_10d": {
-      "ic": -0.017429,
-      "ic_abs": 0.017429,
+      "ic": -0.008824333712954198,
+      "ic_abs": 0.008824333712954198,
       "spread": -0.1119,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "price_ma20": {
-      "ic": -0.021494,
-      "ic_abs": 0.021494,
+      "ic": -0.011447256943557117,
+      "ic_abs": 0.011447256943557117,
       "spread": -0.0688,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "vr_20": {
-      "ic": -0.005909,
-      "ic_abs": 0.005909,
+      "ic": 0.00203514534758695,
+      "ic_abs": 0.00203514534758695,
       "spread": -0.0063,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "cci_20": {
       "ic": -0.015732,
@@ -95,20 +103,22 @@
       "source": "B_system_random"
     },
     "rsi_9": {
-      "ic": -0.015297,
-      "ic_abs": 0.015297,
+      "ic": -0.002663711578229753,
+      "ic_abs": 0.002663711578229753,
       "spread": -0.1309,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "rsi_6": {
-      "ic": -0.019768,
-      "ic_abs": 0.019768,
+      "ic": -0.012567018034503774,
+      "ic_abs": 0.012567018034503774,
       "spread": -0.1162,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "cci_14": {
       "ic": -0.015247,
@@ -135,20 +145,22 @@
       "source": "B_system_random"
     },
     "price_ma30": {
-      "ic": -0.012236,
-      "ic_abs": 0.012236,
+      "ic": -0.002089479825333625,
+      "ic_abs": 0.002089479825333625,
       "spread": -0.0309,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "rsi_14": {
-      "ic": -0.011684,
-      "ic_abs": 0.011684,
+      "ic": -0.0022758268265614607,
+      "ic_abs": 0.0022758268265614607,
       "spread": -0.1289,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "kdj_j": {
       "ic": -0.018623,
@@ -167,28 +179,31 @@
       "source": "B_system_random"
     },
     "vr_5": {
-      "ic": 0.00609,
-      "ic_abs": 0.00609,
+      "ic": 0.0019984789876429745,
+      "ic_abs": 0.0019984789876429745,
       "spread": -0.0343,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "rsi_26": {
-      "ic": -0.005182,
-      "ic_abs": 0.005182,
+      "ic": 0.0023634109772549127,
+      "ic_abs": 0.0023634109772549127,
       "spread": -0.0541,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "pct_20d": {
-      "ic": -0.001833,
-      "ic_abs": 0.001833,
+      "ic": 0.00738839758979555,
+      "ic_abs": 0.00738839758979555,
       "spread": -0.0832,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4359
     },
     "pct_60d": {
       "ic": 0.005296,
@@ -207,12 +222,13 @@
       "source": "B_system_random"
     },
     "price_ma60": {
-      "ic": -0.007135,
-      "ic_abs": 0.007135,
+      "ic": 0.0009593532463664962,
+      "ic_abs": 0.0009593532463664962,
       "spread": -0.1354,
       "samples": 62459,
       "updated": "2026-04-30",
-      "source": "B_system_random"
+      "source": "B_system_random",
+      "count": 4334
     },
     "williams": {
       "ic": -0.013371,
@@ -231,24 +247,24 @@
       "source": "B_system_random"
     },
     "pct_3d": {
-      "ic": 0.08756783284999128,
-      "ic_abs": 0.08756783284999128,
+      "ic": 0.06358737391462042,
+      "ic_abs": 0.06358737391462042,
       "accuracy": 78.42062163084995,
       "count": 4359,
       "high_win_rate": 70.82526152654009,
       "low_win_rate": 86.01598173515981
     },
     "volatility_20d": {
-      "ic": 0.12087229477434994,
-      "ic_abs": 0.12087229477434994,
+      "ic": 0.09493456859129933,
+      "ic_abs": 0.09493456859129933,
       "accuracy": 79.64345220294295,
       "count": 4359,
       "high_win_rate": 82.40086909288429,
       "low_win_rate": 76.88603531300161
     },
     "price_volume": {
-      "ic": 0.10198776759879428,
-      "ic_abs": 0.10198776759879428,
+      "ic": 0.07655018360581478,
+      "ic_abs": 0.07655018360581478,
       "accuracy": 80.57901074624357,
       "count": 4359,
       "high_win_rate": 96.22063329928498,
@@ -263,8 +279,8 @@
       "low_win_rate": 51.073159473805674
     },
     "gap_today": {
-      "ic": 0.10395839287409481,
-      "ic_abs": 0.10395839287409481,
+      "ic": 0.075388152110887,
+      "ic_abs": 0.075388152110887,
       "accuracy": 78.60667443804968,
       "count": 4359,
       "high_win_rate": 72.15088282504013,
@@ -3137,8 +3153,7 @@
     }
   },
   "metadata": {
-    "last_mining": "16:16",
-    "total_samples": 91488,
-    "last_updated": "2026-04-30 16:20"
+    "last_mining": "16:25",
+    "total_samples": 91488
   }
 }
