@@ -16,10 +16,11 @@
       "count": 4450
     },
     "pct_1d": {
-      "ic": -0.047014,
-      "ic_abs": 0.047014,
+      "ic": -0.043,
+      "ic_abs": 0.043,
       "samples": 218000,
-      "updated": "2026-05-06"
+      "updated": "2026-05-06",
+      "count": 1209595
     },
     "price_ma10": {
       "ic": -0.003987183807021115,
@@ -40,10 +41,11 @@
       "count": 4450
     },
     "pct_5d": {
-      "ic": -0.042976,
-      "ic_abs": 0.042976,
+      "ic": -0.0446,
+      "ic_abs": 0.0446,
       "samples": 218000,
-      "updated": "2026-05-06"
+      "updated": "2026-05-06",
+      "count": 1209595
     },
     "pct_10d": {
       "ic": -0.030661,
@@ -1126,6 +1128,18 @@
       "ic": -0.004652942230401866,
       "ic_abs": 0.004652942230401866,
       "count": 22219
+    },
+    "ma5_ratio": {
+      "ic": -0.0437,
+      "ic_abs": 0.0437,
+      "count": 1209595,
+      "accuracy": 50
+    },
+    "ma20_ratio": {
+      "ic": -0.0319,
+      "ic_abs": 0.0319,
+      "count": 1209595,
+      "accuracy": 50
     }
   },
   "rules": {
@@ -1141,8 +1155,8 @@
       "condition": "KDJ_J<0",
       "factor": "kdj_j",
       "range": "<0",
-      "up_ratio": 54.16,
-      "avg_ret": 0.226,
+      "up_ratio": 53.68,
+      "avg_ret": 0.1922,
       "samples": 3091547361,
       "ic": -0.020107
     },
@@ -1333,8 +1347,8 @@
       "condition": "VR<80",
       "factor": "vr_20",
       "range": "<80",
-      "up_ratio": 51.26,
-      "avg_ret": 0.1693,
+      "up_ratio": 51.12,
+      "avg_ret": 0.1669,
       "samples": 3642953030,
       "ic": -0.013163
     },
@@ -5511,9 +5525,9 @@
     },
     "VR<100": {
       "condition": "VR<100",
-      "up_ratio": 52.208835341365464,
-      "avg_ret": 0.564354754537557,
-      "samples": 4233
+      "up_ratio": 51.67,
+      "avg_ret": 0.4425,
+      "samples": 467628
     },
     "VR<120": {
       "condition": "VR<120",
@@ -6966,11 +6980,96 @@
       "up_ratio": 50.72529056671772,
       "avg_ret": 0.4165614236414166,
       "samples": 11099
+    },
+    "RSI<25+超跌": {
+      "condition": "RSI<25+超跌",
+      "up_ratio": 59.34,
+      "avg_ret": 0.6934,
+      "samples": 3938,
+      "ic": -0.0941
+    },
+    "RSI<30+超跌": {
+      "condition": "RSI<30+超跌",
+      "up_ratio": 56.26,
+      "avg_ret": 0.3475,
+      "samples": 16288,
+      "ic": -0.0612
+    },
+    "RSI<35+下跌": {
+      "condition": "RSI<35+下跌",
+      "up_ratio": 54.28,
+      "avg_ret": 0.2039,
+      "samples": 44256,
+      "ic": -0.033
+    },
+    "KDJ_J<10": {
+      "condition": "KDJ_J<10",
+      "up_ratio": 52.65,
+      "avg_ret": 0.1665,
+      "samples": 205521,
+      "ic": 0.0114
+    },
+    "KDJ_J<20+RSI<40": {
+      "condition": "KDJ_J<20+RSI<40",
+      "up_ratio": 52.97,
+      "avg_ret": 0.1813,
+      "samples": 166528,
+      "ic": -0.0152
+    },
+    "RSI>60+回调": {
+      "condition": "RSI>60+回调",
+      "up_ratio": 52.06,
+      "avg_ret": 0.4041,
+      "samples": 44758,
+      "ic": -0.0217
+    },
+    "RSI>70+回调": {
+      "condition": "RSI>70+回调",
+      "up_ratio": 48.06,
+      "avg_ret": 0.3624,
+      "samples": 7460,
+      "ic": -0.0123
+    },
+    "MA20多头+RSI>50": {
+      "condition": "MA20多头+RSI>50",
+      "up_ratio": 48.19,
+      "avg_ret": 0.1511,
+      "samples": 557368,
+      "ic": -0.0435
+    },
+    "MA5多头+RSI>50": {
+      "condition": "MA5多头+RSI>50",
+      "up_ratio": 47.52,
+      "avg_ret": 0.1381,
+      "samples": 401201,
+      "ic": -0.0514
+    },
+    "RSI45-55+小幅波动": {
+      "condition": "RSI45-55+小幅波动",
+      "up_ratio": 49.67,
+      "avg_ret": 0.1479,
+      "samples": 186099,
+      "ic": 0.0042
+    },
+    "VR>150+RSI>50": {
+      "condition": "VR>150+RSI>50",
+      "up_ratio": 47.75,
+      "avg_ret": 0.1266,
+      "samples": 297338,
+      "ic": -0.0639
+    },
+    "VR>200+涨幅<2": {
+      "condition": "VR>200+涨幅<2",
+      "up_ratio": 49.34,
+      "avg_ret": 0.2098,
+      "samples": 101476,
+      "ic": -0.0178
     }
   },
   "metadata": {
-    "last_mining": "09:12",
-    "total_samples": 3748821,
-    "last_updated": "2026-05-06 18:02"
+    "last_mining": "2026-05-07 10:16",
+    "total_samples": 1209595,
+    "stocks_processed": 2820,
+    "version": "2.0"
   }
 }
