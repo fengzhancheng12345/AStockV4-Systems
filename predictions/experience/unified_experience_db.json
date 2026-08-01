@@ -19,7 +19,7 @@
       "ic": -0.029966,
       "ic_abs": 0.029966,
       "samples": 218000,
-      "updated": "2026-07-31"
+      "updated": "2026-08-01"
     },
     "price_ma10": {
       "ic": -0.003987183807021115,
@@ -43,7 +43,7 @@
       "ic": -0.01023,
       "ic_abs": 0.01023,
       "samples": 218000,
-      "updated": "2026-07-31"
+      "updated": "2026-08-01"
     },
     "pct_10d": {
       "ic": -0.018622,
@@ -5489,7 +5489,7 @@
   "metadata": {
     "version": "3.0",
     "source": "two_day_predictor_core",
-    "last_updated": "2026-07-31 18:02",
+    "last_updated": "2026-08-01 18:02",
     "total_samples": 1821233,
     "stocks_processed": 4213,
     "factors_count": 202,
