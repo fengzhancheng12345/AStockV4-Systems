@@ -16,10 +16,10 @@
       "count": 4450
     },
     "pct_1d": {
-      "ic": -0.029579,
-      "ic_abs": 0.029579,
+      "ic": -0.027643,
+      "ic_abs": 0.027643,
       "samples": 218000,
-      "updated": "2026-08-03"
+      "updated": "2026-08-04"
     },
     "price_ma10": {
       "ic": -0.003987183807021115,
@@ -5489,7 +5489,7 @@
   "metadata": {
     "version": "3.0",
     "source": "two_day_predictor_core",
-    "last_updated": "2026-08-03 18:02",
+    "last_updated": "2026-08-04 18:02",
     "total_samples": 1821233,
     "stocks_processed": 4213,
     "factors_count": 202,
