@@ -16,10 +16,10 @@
       "count": 4450
     },
     "pct_1d": {
-      "ic": -0.019939,
-      "ic_abs": 0.019939,
-      "samples": 218000,
-      "updated": "2026-08-22"
+      "ic": -0.019574,
+      "ic_abs": 0.019574,
+      "samples": 69760,
+      "updated": "2026-08-23"
     },
     "price_ma10": {
       "ic": -0.003987183807021115,
@@ -103,10 +103,10 @@
       "count": 4450
     },
     "rsi_6": {
-      "ic": -0.011946,
-      "ic_abs": 0.011946,
-      "samples": 46652,
-      "updated": "2026-08-18"
+      "ic": -0.013378,
+      "ic_abs": 0.013378,
+      "samples": 69760,
+      "updated": "2026-08-23"
     },
     "cci_14": {
       "ic": -0.007604567560383366,
@@ -5489,7 +5489,7 @@
   "metadata": {
     "version": "3.0",
     "source": "two_day_predictor_core",
-    "last_updated": "2026-08-22 18:02",
+    "last_updated": "2026-08-23 18:02",
     "total_samples": 1821233,
     "stocks_processed": 4213,
     "factors_count": 202,
