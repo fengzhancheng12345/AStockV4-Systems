@@ -16,10 +16,10 @@
       "count": 4450
     },
     "pct_1d": {
-      "ic": -0.012411,
-      "ic_abs": 0.012411,
-      "samples": 48396,
-      "updated": "2026-08-24"
+      "ic": -0.013541,
+      "ic_abs": 0.013541,
+      "samples": 56680,
+      "updated": "2026-08-26"
     },
     "price_ma10": {
       "ic": -0.003987183807021115,
@@ -46,10 +46,10 @@
       "updated": "2026-08-02"
     },
     "pct_10d": {
-      "ic": 0.017112,
-      "ic_abs": 0.017112,
-      "samples": 39240,
-      "updated": "2026-08-25"
+      "ic": 0.012185,
+      "ic_abs": 0.012185,
+      "samples": 56680,
+      "updated": "2026-08-26"
     },
     "price_ma20": {
       "ic": 0.0002911767485026125,
@@ -103,10 +103,10 @@
       "count": 4450
     },
     "rsi_6": {
-      "ic": -0.013378,
-      "ic_abs": 0.013378,
-      "samples": 69760,
-      "updated": "2026-08-23"
+      "ic": -0.012316,
+      "ic_abs": 0.012316,
+      "samples": 56680,
+      "updated": "2026-08-26"
     },
     "cci_14": {
       "ic": -0.007604567560383366,
@@ -5489,7 +5489,7 @@
   "metadata": {
     "version": "3.0",
     "source": "two_day_predictor_core",
-    "last_updated": "2026-08-25 18:01",
+    "last_updated": "2026-08-26 18:01",
     "total_samples": 1821233,
     "stocks_processed": 4213,
     "factors_count": 202,
