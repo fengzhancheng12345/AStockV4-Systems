@@ -19,7 +19,7 @@
       "ic": -0.017189,
       "ic_abs": 0.017189,
       "samples": 218000,
-      "updated": "2026-08-28"
+      "updated": "2026-08-29"
     },
     "price_ma10": {
       "ic": -0.003987183807021115,
@@ -5489,7 +5489,7 @@
   "metadata": {
     "version": "3.0",
     "source": "two_day_predictor_core",
-    "last_updated": "2026-08-28 18:02",
+    "last_updated": "2026-08-29 18:02",
     "total_samples": 1821233,
     "stocks_processed": 4213,
     "factors_count": 202,
